@@ -1,0 +1,8 @@
+﻿  Hw3_2.cpp
+D:\Hw_Prog\Hw3_2\Hw3_2.cpp(66,40): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::string" (или приемлемое преобразование отсутствует)
+D:\Hw_Prog\Hw3_2\Student.h(30,1): message : может быть "Student &Student::operator =(const Student &)"
+D:\Hw_Prog\Hw3_2\Hw3_2.cpp(66,40): message : при попытке сопоставить список аргументов "(Student, std::string)"
+D:\Hw_Prog\Hw3_2\Hw3_2.cpp(75,35): error C2084: функция "void executeLoadFromFileCommand(void)" уже имеет текст реализации
+D:\Hw_Prog\Hw3_2\Hw3_2.cpp(48): message : см. предыдущее определение "executeLoadFromFileCommand"
+D:\Hw_Prog\Hw3_2\Hw3_2.cpp(187,71): error C2568: =: не удается разрешить перегрузку функции
+D:\Hw_Prog\Hw3_2\Hw3_2.cpp(187,71): message : может быть "void executeLoadFromFileCommand(void)"
